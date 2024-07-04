@@ -31,3 +31,9 @@ def setup03():
     f.close()
     os.remove(pytest.filename)
 
+@pytest.fixture()
+def setup():
+    print("\nSetup - Execute before each test methods")
+    yield
+    print("Tear Down - Execute after each test methods")
+

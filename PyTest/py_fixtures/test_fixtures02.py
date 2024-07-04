@@ -33,13 +33,16 @@ def setup03():
     os.remove(filename)
 
 
+@pytest.mark.run(order=4)
 def test_extendList(setup01):
     setup01.extend(weekdays2)
     assert setup01 == weekdays3
 
+@pytest.mark.run(order=5)
 def test_len(setup02):
     assert len(weekdays1+setup02) == len(weekdays3)
 
+@pytest.mark.run(order=6)
 def test_readFile(setup03):
     filecontent = setup03.readline()
     assert filecontent==content

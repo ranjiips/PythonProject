@@ -1,6 +1,6 @@
 import pytest
 
-@pytest.yield_fixture()
+@pytest.fixture()
 def setup():
     print("\nSetup - Execute before each test methods")
     yield
