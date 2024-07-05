@@ -1,0 +1,98 @@
+07/04/2024 10:08:32 PM - SeleniumDriver - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+07/04/2024 10:08:38 PM - SeleniumDriver - INFO: Element appeared on the web page
+07/04/2024 10:08:38 PM - SeleniumDriver - INFO: Element Found with locator: email and  locatorType: id
+07/04/2024 10:08:38 PM - SeleniumDriver - INFO: Sent data on element with locator: email locatorType: id
+07/04/2024 10:08:38 PM - SeleniumDriver - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+07/04/2024 10:08:38 PM - SeleniumDriver - INFO: Element appeared on the web page
+07/04/2024 10:08:38 PM - SeleniumDriver - INFO: Element Found with locator: password and  locatorType: id
+07/04/2024 10:08:38 PM - SeleniumDriver - INFO: Sent data on element with locator: password locatorType: id
+07/04/2024 10:08:38 PM - SeleniumDriver - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+07/04/2024 10:08:38 PM - SeleniumDriver - INFO: Element appeared on the web page
+07/04/2024 10:08:38 PM - SeleniumDriver - INFO: Element Found with locator: //button[text()='LOG IN'] and  locatorType: xpath
+07/04/2024 10:08:39 PM - SeleniumDriver - INFO: Clicked on element with locator: //button[text()='LOG IN'] locatorType: xpath
+07/04/2024 10:08:39 PM - SeleniumDriver - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+07/04/2024 10:08:40 PM - SeleniumDriver - INFO: Element appeared on the web page
+07/04/2024 11:05:58 PM - SeleniumDriver - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+07/04/2024 11:05:58 PM - SeleniumDriver - INFO: Element appeared on the web page
+07/04/2024 11:05:58 PM - SeleniumDriver - INFO: Element Found with locator: email and  locatorType: id
+07/04/2024 11:05:58 PM - SeleniumDriver - INFO: Sent data on element with locator: email locatorType: id
+07/04/2024 11:05:58 PM - SeleniumDriver - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+07/04/2024 11:05:58 PM - SeleniumDriver - INFO: Element appeared on the web page
+07/04/2024 11:05:58 PM - SeleniumDriver - INFO: Element Found with locator: password and  locatorType: id
+07/04/2024 11:05:58 PM - SeleniumDriver - INFO: Sent data on element with locator: password locatorType: id
+07/04/2024 11:05:58 PM - SeleniumDriver - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+07/04/2024 11:05:58 PM - SeleniumDriver - INFO: Element appeared on the web page
+07/04/2024 11:05:58 PM - SeleniumDriver - INFO: Element Found with locator: //button[text()='LOG IN'] and  locatorType: xpath
+07/04/2024 11:05:59 PM - SeleniumDriver - INFO: Clicked on element with locator: //button[text()='LOG IN'] locatorType: xpath
+07/04/2024 11:06:09 PM - SeleniumDriver - INFO: Element not found with locator: //div[contains(@class,'AccountLayout')]/h1 and  locatorType: xpath
+07/04/2024 11:06:09 PM - SeleniumDriver - INFO: Element not found
+07/04/2024 11:07:02 PM - SeleniumDriver - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+07/04/2024 11:07:02 PM - SeleniumDriver - INFO: Element appeared on the web page
+07/04/2024 11:07:02 PM - SeleniumDriver - INFO: Element Found with locator: email and  locatorType: id
+07/04/2024 11:07:02 PM - SeleniumDriver - INFO: Sent data on element with locator: email locatorType: id
+07/04/2024 11:07:02 PM - SeleniumDriver - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+07/04/2024 11:07:02 PM - SeleniumDriver - INFO: Element appeared on the web page
+07/04/2024 11:07:02 PM - SeleniumDriver - INFO: Element Found with locator: password and  locatorType: id
+07/04/2024 11:07:03 PM - SeleniumDriver - INFO: Sent data on element with locator: password locatorType: id
+07/04/2024 11:07:03 PM - SeleniumDriver - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+07/04/2024 11:07:03 PM - SeleniumDriver - INFO: Element appeared on the web page
+07/04/2024 11:07:03 PM - SeleniumDriver - INFO: Element Found with locator: //button[text()='LOG IN'] and  locatorType: xpath
+07/04/2024 11:07:03 PM - SeleniumDriver - INFO: Clicked on element with locator: //button[text()='LOG IN'] locatorType: xpath
+07/04/2024 11:07:13 PM - SeleniumDriver - INFO: Element not found with locator: //div[contains(@class,'AccountLayout')]/h1 and  locatorType: xpath
+07/04/2024 11:07:13 PM - SeleniumDriver - INFO: Element not found
+07/04/2024 11:17:01 PM - SeleniumDriver - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+07/04/2024 11:17:01 PM - SeleniumDriver - INFO: Element appeared on the web page
+07/04/2024 11:17:01 PM - SeleniumDriver - INFO: Element Found with locator: email and  locatorType: id
+07/04/2024 11:17:01 PM - SeleniumDriver - INFO: Sent data on element with locator: email locatorType: id
+07/04/2024 11:17:01 PM - SeleniumDriver - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+07/04/2024 11:17:01 PM - SeleniumDriver - INFO: Element appeared on the web page
+07/04/2024 11:17:01 PM - SeleniumDriver - INFO: Element Found with locator: password and  locatorType: id
+07/04/2024 11:17:01 PM - SeleniumDriver - INFO: Sent data on element with locator: password locatorType: id
+07/04/2024 11:17:01 PM - SeleniumDriver - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+07/04/2024 11:17:01 PM - SeleniumDriver - INFO: Element appeared on the web page
+07/04/2024 11:17:01 PM - SeleniumDriver - INFO: Element Found with locator: //button[text()='LOG IN'] and  locatorType: xpath
+07/04/2024 11:17:01 PM - SeleniumDriver - INFO: Clicked on element with locator: //button[text()='LOG IN'] locatorType: xpath
+07/04/2024 11:17:06 PM - SeleniumDriver - INFO: Element Found with locator: //div[contains(@class,'AccountLayout')]/h1 and  locatorType: xpath
+07/04/2024 11:17:06 PM - SeleniumDriver - INFO: Element Found
+07/04/2024 11:17:20 PM - SeleniumDriver - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+07/04/2024 11:17:20 PM - SeleniumDriver - INFO: Element appeared on the web page
+07/04/2024 11:17:20 PM - SeleniumDriver - INFO: Element Found with locator: email and  locatorType: id
+07/04/2024 11:17:20 PM - SeleniumDriver - INFO: Sent data on element with locator: email locatorType: id
+07/04/2024 11:17:20 PM - SeleniumDriver - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+07/04/2024 11:17:20 PM - SeleniumDriver - INFO: Element appeared on the web page
+07/04/2024 11:17:20 PM - SeleniumDriver - INFO: Element Found with locator: password and  locatorType: id
+07/04/2024 11:17:20 PM - SeleniumDriver - INFO: Sent data on element with locator: password locatorType: id
+07/04/2024 11:17:20 PM - SeleniumDriver - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+07/04/2024 11:17:31 PM - SeleniumDriver - INFO: Element not appeared on the web page
+07/04/2024 11:17:36 PM - SeleniumDriver - INFO: Element not found with locator: //button[text()='LOG IN'] and  locatorType: xpath
+07/04/2024 11:17:36 PM - SeleniumDriver - INFO: Cannot click on the element with locator: //button[text()='LOG IN'] locatorType: xpath
+07/04/2024 11:17:44 PM - SeleniumDriver - INFO: Element not found with locator: //div[@class='toast-wrapper']/div[@data-transition='entered'] and  locatorType: xpath
+07/04/2024 11:17:44 PM - SeleniumDriver - INFO: Element not found
+07/04/2024 11:18:24 PM - SeleniumDriver - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+07/04/2024 11:18:24 PM - SeleniumDriver - INFO: Element appeared on the web page
+07/04/2024 11:18:24 PM - SeleniumDriver - INFO: Element Found with locator: email and  locatorType: id
+07/04/2024 11:18:25 PM - SeleniumDriver - INFO: Sent data on element with locator: email locatorType: id
+07/04/2024 11:18:25 PM - SeleniumDriver - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+07/04/2024 11:18:25 PM - SeleniumDriver - INFO: Element appeared on the web page
+07/04/2024 11:18:25 PM - SeleniumDriver - INFO: Element Found with locator: password and  locatorType: id
+07/04/2024 11:18:25 PM - SeleniumDriver - INFO: Sent data on element with locator: password locatorType: id
+07/04/2024 11:18:25 PM - SeleniumDriver - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+07/04/2024 11:18:28 PM - SeleniumDriver - INFO: Element not appeared on the web page
+07/04/2024 11:18:28 PM - SeleniumDriver - INFO: Element not found with locator: //button[text()='LOG IN'] and  locatorType: xpath
+07/04/2024 11:18:28 PM - SeleniumDriver - INFO: Cannot click on the element with locator: //button[text()='LOG IN'] locatorType: xpath
+07/04/2024 11:18:30 PM - SeleniumDriver - INFO: Element not found with locator: //div[@class='toast-wrapper']/div[@data-transition='entered'] and  locatorType: xpath
+07/04/2024 11:18:30 PM - SeleniumDriver - INFO: Element not found
+07/04/2024 11:18:46 PM - SeleniumDriver - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+07/04/2024 11:18:46 PM - SeleniumDriver - INFO: Element appeared on the web page
+07/04/2024 11:18:46 PM - SeleniumDriver - INFO: Element Found with locator: email and  locatorType: id
+07/04/2024 11:18:46 PM - SeleniumDriver - INFO: Sent data on element with locator: email locatorType: id
+07/04/2024 11:18:46 PM - SeleniumDriver - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+07/04/2024 11:18:46 PM - SeleniumDriver - INFO: Element appeared on the web page
+07/04/2024 11:18:46 PM - SeleniumDriver - INFO: Element Found with locator: password and  locatorType: id
+07/04/2024 11:18:46 PM - SeleniumDriver - INFO: Sent data on element with locator: password locatorType: id
+07/04/2024 11:18:46 PM - SeleniumDriver - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+07/04/2024 11:18:46 PM - SeleniumDriver - INFO: Element appeared on the web page
+07/04/2024 11:18:46 PM - SeleniumDriver - INFO: Element Found with locator: //button[text()='LOG IN'] and  locatorType: xpath
+07/04/2024 11:18:46 PM - SeleniumDriver - INFO: Clicked on element with locator: //button[text()='LOG IN'] locatorType: xpath
+07/04/2024 11:18:53 PM - SeleniumDriver - INFO: Element not found with locator: //div[@class='toast-wrapper']/div[@data-transition='entered'] and  locatorType: xpath
+07/04/2024 11:18:53 PM - SeleniumDriver - INFO: Element not found
