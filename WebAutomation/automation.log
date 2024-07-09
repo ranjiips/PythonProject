@@ -43,3 +43,12 @@
 07/05/2024 11:26:03 PM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Title Verified
 07/05/2024 11:26:11 PM - TestStatus - ERROR: ### VERIFICATION FAILED :: + Login was successful
 07/05/2024 11:26:11 PM - TestStatus - ERROR: test_validLogin ### TEST FAILED
+07/09/2024 12:03:59 PM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Title Verified
+07/09/2024 12:04:08 PM - TestStatus - ERROR: ### VERIFICATION FAILED :: + Login was successful
+07/09/2024 12:04:08 PM - TestStatus - ERROR: test_validLogin ### TEST FAILED
+07/09/2024 12:05:10 PM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Title Verified
+07/09/2024 12:05:18 PM - TestStatus - ERROR: ### VERIFICATION FAILED :: + Login was successful
+07/09/2024 12:05:18 PM - TestStatus - ERROR: test_validLogin ### TEST FAILED
+07/09/2024 03:49:53 PM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Title Verified
+07/09/2024 03:50:01 PM - TestStatus - ERROR: ### VERIFICATION FAILED :: + Login was successful
+07/09/2024 03:50:01 PM - TestStatus - ERROR: test_validLogin ### TEST FAILED

@@ -12,7 +12,7 @@ class LoginTests(unittest.TestCase):
         self.lp = LoginPage(self.driver)
         self.ts = TestStatus(self.driver)
 
-    @pytest.mark.run(order=2)
+    @pytest.mark.run(order=1)
     def test_validLogin(self):
         # baseURL = "https://ecommercepractice.letskodeit.com/"
         baseURL = "https://ecommercepractice.letskodeit.com/login/"
@@ -23,7 +23,7 @@ class LoginTests(unittest.TestCase):
         # assert result==True
         self.ts.markFinal("test_validLogin", result, "Login was successful")
 
-    @pytest.mark.run(order=1)
+    @pytest.mark.run(order=2)
     def test_inValidLogin(self):
         baseURL = "https://sso.teachable.com/secure/42299/identity/login/"
         # baseURL = "https://ecommercepractice.letskodeit.com/login/"

@@ -1,3 +1,6 @@
+import os.path
+from datetime import time, datetime
+
 from selenium.webdriver.common.by import By
 from traceback import print_stack
 from selenium.webdriver.support.ui import WebDriverWait
@@ -11,6 +14,24 @@ class SeleniumDriver():
     # log = cl.customLogger(logging.DEBUG)
     def __init__(self, driver):
         self.driver = driver
+
+    def screenShot(self):
+        now = datetime.now()
+        dt_string = now.strftime("%d%m%Y%H%M%S")
+        fileName = "Screenshot_"+str(dt_string)+".png"
+        screenShotDirectory = "../screenshots"
+        relativeFileName = screenShotDirectory+fileName
+        currentDirectory = os.path.dirname(__file__)
+        destinationFile = os.path.join(currentDirectory,relativeFileName)
+        destinationDirectory = os.path.join(currentDirectory, screenShotDirectory)
+
+        try:
+            if not os.path.exists(destinationDirectory):
+                os.makedirs(destinationDirectory)
+            self.driver.save_screenshot(destinationFile)
+            print("Screenshot saved")
+        except:
+            raise Exception("Failed to save screenshot")
 
     def getByType(self, locatorType):
         locatorType = locatorType.lower()
@@ -53,7 +74,7 @@ class SeleniumDriver():
             print("Clicked on element with locator: " + locator + " locatorType: " + locatorType)
         except:
             print("Cannot click on the element with locator: " + locator + " locatorType: " + locatorType)
-            print_stack()
+            #print_stack()
 
     def enterText(self, data, locator, locatorType="id"):
         try:
@@ -64,7 +85,7 @@ class SeleniumDriver():
         except:
             print("Cannot send data on the element with locator: " + locator +
                   " locatorType: " + locatorType)
-            print_stack()
+            #print_stack()
 
     def isElementPresent(self, locator, locatorType="id"):
         try:
@@ -106,5 +127,5 @@ class SeleniumDriver():
             print("Element appeared on the web page")
         except:
             print("Element not appeared on the web page")
-            print_stack()
+            #print_stack()
         return element

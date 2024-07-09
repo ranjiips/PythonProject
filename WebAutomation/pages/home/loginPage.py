@@ -2,9 +2,9 @@ import time
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from PythonProject.WebAutomation.base.seleniumDriver import SeleniumDriver
+from PythonProject.WebAutomation.base.basepage import BasePage
 
-class LoginPage(SeleniumDriver):
+class LoginPage(BasePage):
     # log = cl.customLogger(logging.DEBUG)
 
     def __init__(self, driver):
@@ -33,6 +33,7 @@ class LoginPage(SeleniumDriver):
 
     def verifyLoginSuccessful(self):
         time.sleep(5)
+        #self.screenShot()
         return self.isElementPresent(self._homePageIcon,locatorType="xpath")
 
     def verifyInvalidCredentials(self):
@@ -40,6 +41,7 @@ class LoginPage(SeleniumDriver):
         return self.isElementPresent(self._invalidCredentialsLocator, locatorType="xpath")
 
     def login(self, username="", password=""):
+        #self.screenShot()
         # self.clickLoginLink()
         self.enterUserName(username)
         self.enterPassword(password)
