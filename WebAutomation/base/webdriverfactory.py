@@ -1,5 +1,16 @@
+"""
+@package base
+
+WebDriver Factory class implementation
+It creates a webdriver instance based on browser configurations
+
+Example:
+    wdf = WebDriverFactory(browser)
+    wdf.getWebDriverInstance()
+"""
 import traceback
 from selenium import webdriver
+import os
 
 class WebDriverFactory():
 

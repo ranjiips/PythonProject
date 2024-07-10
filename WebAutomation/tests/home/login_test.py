@@ -1,37 +1,44 @@
+import logging
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import pytest
 import unittest
 from PythonProject.WebAutomation.pages.home.loginPage import LoginPage
 from PythonProject.WebAutomation.utilities.teststatus import TestStatus
+import PythonProject.WebAutomation.utilities.custom_logger as cl
 
 @pytest.mark.usefixtures("oneTimeSetUp", "setUp")
 class LoginTests(unittest.TestCase):
+    log = cl.customLogger(logging.DEBUG)
+
     @pytest.fixture(autouse=True)
-    def classSetup(self, oneTimeSetUp):
+    def objectSetup(self, oneTimeSetUp):
         self.lp = LoginPage(self.driver)
         self.ts = TestStatus(self.driver)
 
     @pytest.mark.run(order=1)
-    def test_validLogin(self):
-        # baseURL = "https://ecommercepractice.letskodeit.com/"
-        baseURL = "https://ecommercepractice.letskodeit.com/login/"
-        # self.driver.get(baseURL)
-        self.lp.login("test@gmail.com","July@2024")
-        self.ts.mark(True, "Title Verified")
-        result = self.lp.verifyLoginSuccessful()
-        # assert result==True
-        self.ts.markFinal("test_validLogin", result, "Login was successful")
+    def test_t1invalidLogin(self):
+        self.log.info("*#" * 20)
+        self.log.info("test_t1invalidLogin started")
+        self.log.info("*#" * 20)
+        self.lp.logout()
+        self.lp.login("test@email.com", "abcabcabc")
+        result = self.lp.verifyLoginFailed()
+        assert result == True
 
     @pytest.mark.run(order=2)
-    def test_inValidLogin(self):
-        baseURL = "https://sso.teachable.com/secure/42299/identity/login/"
-        # baseURL = "https://ecommercepractice.letskodeit.com/login/"
-        # self.driver.get(baseURL)
-
-        self.lp.login()
-        result = self.lp.verifyInvalidCredentials()
-        assert result==True
+    def test_t2validLogin(self):
+        self.log.info("*#" * 20)
+        self.log.info("test_t1invalidLogin started")
+        self.log.info("*#" * 20)
+        self.lp.login("test@email.com", "abcabc")
+        result1 = self.lp.verifyLoginTitle()
+        self.ts.mark(result1, "Title Verification")
+        result2 = self.lp.verifyLoginSuccessful()
+        print("Result1: " + str(result1))
+        print("Result2: " + str(result2))
+        self.ts.markFinal("test_t2validLogin", result2, "Login Verification")
 
 
 # loginobj = LoginTests()
