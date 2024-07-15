@@ -1,4 +1,5 @@
 # PythonProject
+# Author: Ranjith Kumar (ranjiips)
 Pytest:
 for pytest execution, from command line/Terminal use the below command
 py.test -v -s - to run all the test methods in the project (-s to print statements; -v for verbose)
@@ -12,7 +13,6 @@ py.test
 
 To capture the reports, run the below command:
 py.test -v -s --html=reports\htmlreport.html
-
 
 use the below command line arguments to run the test
 py.test -v -s --html=reports\htmlreport.html --browser chrome
