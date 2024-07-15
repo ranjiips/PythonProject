@@ -16,10 +16,7 @@ class TestWarmupFunctions(unittest.TestCase):
         # arrSum = np.sum(ar)
         # print(f"Sum of array is {arrSum}")
         ar = [1, 2, 3]
-        temp = 0
-        for i in ar:
-            temp = temp+i
-        print(f"Sum of array is {temp}")
+        print(f"Sum of array is {sum(ar)}")
 
     def test_compare_triplets(self):
         arr1 = [17,28,30]
