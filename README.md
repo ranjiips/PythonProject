@@ -14,5 +14,5 @@ To capture the reports, run the below command:
 py.test -v -s --html=reports\htmlreport.html
 
 
-send the command line arguments
+use the below command line arguments to run the test
 py.test -v -s --html=reports\htmlreport.html --browser chrome
