@@ -18,7 +18,8 @@ class WebDriverFactory():
         self.browser = browser
 
     def getWebDriverInstance(self):
-        baseURL = "https://letskodeit.teachable.com/"
+        #baseURL = "https://letskodeit.teachable.com/"
+        baseURL = "https://www.demoblaze.com/"
         if self.browser == "iexplorer":
             driver = webdriver.Ie()
         elif self.browser == "firefox":

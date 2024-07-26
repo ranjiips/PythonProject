@@ -77,3 +77,13 @@ class TestImplementationFunctions(unittest.TestCase):
         else:
             print(math.trunc(b - sharewithdeduction))
 
+    def test_sockMerchant(self):
+        ar = [ 10, 20, 20, 10, 10, 30, 50, 10, 20 ]
+        distinctItems = set(ar)
+        pairs = 0
+        for i in distinctItems:
+            occurance = ar.count(i)
+            if occurance // 2 > 0:
+                pairs=pairs+ (occurance // 2)
+                print(f"Total number of Socks {i} is {occurance} and the pair is {occurance//2}")
+        return pairs

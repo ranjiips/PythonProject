@@ -17,11 +17,11 @@ class LoginPage(BasePage):
         self.nav = NavigationPage(driver)
 
     #locators
-    _loginLink = "//div/a[contains(@href,'login')]"
-    _emailLocator = "email"
-    _passwordLocator = "password"
-    _loginBtnLocator = "//button[text()='LOG IN']"
-    _homePageIcon = "//div[contains(@class,'AccountLayout')]/h1"
+    _loginLink = "//a[text()='Log in']"
+    _usernameLocator = "//input[@id='loginusername']"
+    _passwordLocator = "//input[@id='loginpassword']"
+    _loginBtnLocator = "//button[text()='Log in']"
+    _homePageIcon = "//a[text()='Home ']"
     _invalidCredentialsLocator = "//div[@class='toast-wrapper']/div[@data-transition='entered']"
 
     def clickLoginLink(self):

@@ -67,3 +67,25 @@
 07/09/2024 09:57:41 PM - LoginPage - INFO: Element not found with locator: //div/a[contains(@href,'login')] and  locatorType: link
 07/09/2024 09:57:41 PM - LoginPage - INFO: Cannot click on the element with locator: //div/a[contains(@href,'login')] locatorType: link
 07/09/2024 09:57:41 PM - LoginPage - INFO: Element not found with locator: email and  locatorType: id
+07/21/2024 09:35:49 PM - LoginTests - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+07/21/2024 09:35:51 PM - LoginTests - INFO: test_t1invalidLogin started
+07/21/2024 09:35:51 PM - LoginTests - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+07/21/2024 09:35:51 PM - LoginTests - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+07/21/2024 09:35:51 PM - LoginTests - INFO: test_t1invalidLogin started
+07/21/2024 09:35:51 PM - LoginTests - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+07/21/2024 09:36:13 PM - LoginPage - INFO: Element not found with locator: //div/a[contains(@href,'login')] and  locatorType: link
+07/21/2024 09:36:13 PM - LoginPage - INFO: Cannot click on the element with locator: //div/a[contains(@href,'login')] locatorType: link
+07/21/2024 09:36:16 PM - LoginPage - INFO: Element not found with locator: email and  locatorType: id
+07/21/2024 09:36:29 PM - LoginPage - INFO: Element not found with locator: //div/a[contains(@href,'login')] and  locatorType: link
+07/21/2024 09:36:29 PM - LoginPage - INFO: Cannot click on the element with locator: //div/a[contains(@href,'login')] locatorType: link
+07/21/2024 09:36:32 PM - LoginPage - INFO: Element not found with locator: email and  locatorType: id
+07/21/2024 10:26:06 PM - LoginTests - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+07/21/2024 10:26:06 PM - LoginTests - INFO: test_t1invalidLogin started
+07/21/2024 10:26:06 PM - LoginTests - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+07/21/2024 10:26:06 PM - LoginTests - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+07/21/2024 10:26:06 PM - LoginTests - INFO: test_t1validLogin started
+07/21/2024 10:26:06 PM - LoginTests - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+07/21/2024 10:26:17 PM - LoginPage - INFO: Element not found with locator: //a[text()='Log in'] and  locatorType: link
+07/21/2024 10:26:17 PM - LoginPage - INFO: Cannot click on the element with locator: //a[text()='Log in'] locatorType: link
+07/21/2024 10:26:26 PM - LoginPage - INFO: Element not found with locator: //a[text()='Log in'] and  locatorType: link
+07/21/2024 10:26:26 PM - LoginPage - INFO: Cannot click on the element with locator: //a[text()='Log in'] locatorType: link

@@ -30,9 +30,9 @@ class LoginTests(unittest.TestCase):
     @pytest.mark.run(order=2)
     def test_t2validLogin(self):
         self.log.info("*#" * 20)
-        self.log.info("test_t1invalidLogin started")
+        self.log.info("test_t1validLogin started")
         self.log.info("*#" * 20)
-        self.lp.login("test@email.com", "abcabc")
+        self.lp.login("ranji_ips1", "July@2024")
         result1 = self.lp.verifyLoginTitle()
         self.ts.mark(result1, "Title Verification")
         result2 = self.lp.verifyLoginSuccessful()
