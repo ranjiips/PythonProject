@@ -16,3 +16,4 @@ py.test -v -s --html=reports\htmlreport.html
 
 use the below command line arguments to run the test
 py.test -v -s --html=reports\htmlreport.html --browser chrome
+python -m pytest -v -s --html=reports\htmlreport.html --browser chrome 
