@@ -87,3 +87,84 @@ class TestImplementationFunctions(unittest.TestCase):
                 pairs=pairs+ (occurance // 2)
                 print(f"Total number of Socks {i} is {occurance} and the pair is {occurance//2}")
         return pairs
+
+    def test_drawingBooks(self):
+        pages = 19
+        n = pages
+        p = 12
+        totalFlips = int(n / 2)
+        flip = 0
+        if p > totalFlips:
+            for i in range (totalFlips):
+                if n == p:
+                    flip = i
+                    break
+                elif n % 2 == 0:
+                    if (n == p) or (n + 1) == p:
+                        flip = i
+                        break
+                    else:
+                        n -= 2
+                else:
+                    if (n == p) or (n - 1) == p:
+                        flip = i
+                        break
+                    else:
+                        n -= 2
+        else:
+            for i in range (totalFlips):
+                if i == 0 and (i + 1) == p:
+                    flip = i
+                    break
+                elif flip > 0 and (flip == p or (flip + 1) == p):
+                    flip = i
+                    break
+                else:
+                    flip += 2
+        print(f"Total number of pages: {pages}, Page to navigate: {p}, Number of flips: {flip}")
+
+    def test_counting_valleys(self):
+        steps= 8
+        path = "UDDDUDUU"
+        currStep=0
+        prevStep=0
+        valley=0
+
+        for i in range(steps):
+            prevStep=currStep
+            if path[i]=='D':
+                currStep=currStep-1
+            else:
+                currStep=currStep+1
+            if(currStep==0 and prevStep==-1):
+                valley=valley+1
+            #print(f"Path:{path[i]}, Current level: {currStep}, Previous level: {prevStep}, Valley:{valley}")
+
+        print(f"Total number of valleys travelled: {valley}")
+
+    def test_electroniShops(self):
+        budget=60
+        keyboardPrice = [40,50,60]
+        usbDrivePrice = [25,28,12]
+        expensivePrice=0
+
+        for k in keyboardPrice:
+            for u in usbDrivePrice:
+                price = k+u
+                if price>expensivePrice and price<= budget:
+                    expensivePrice = price
+        if expensivePrice==0:
+            expensivePrice = -1
+        print(f"The expensive purchase is {expensivePrice}")
+
+    def test_CatAndMouse(self):
+        x=2
+        y=5
+        z=3
+
+        if abs(x-z) < abs(y-z):
+            print("Cat A catches the mouse")
+        elif abs(x-z) > abs(y-z):
+            print("Cat B catches the mouse")
+        else:
+            print("Mouse C escapes, since both the cat are busy in fighting")
