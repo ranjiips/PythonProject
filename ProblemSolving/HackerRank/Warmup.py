@@ -96,3 +96,12 @@ class TestWarmupFunctions(unittest.TestCase):
         s = '07:05:45PM'
         t = datetime.strptime(s,'%I:%M:%S%p')
         print(t.strftime('%H:%M:%S'))
+
+    def test_findMedian(self):
+        arr = [3,4,5,2,1,0,6]
+        arr.sort()
+        arrLen = len(arr)
+        medianIndex = int(arrLen/2)
+        print(*arr)
+        print(f"Median for the given arrray is {arr[medianIndex]}")
+
