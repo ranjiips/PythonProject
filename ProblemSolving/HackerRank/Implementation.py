@@ -1,4 +1,5 @@
 import math
+import string
 import unittest
 import numpy as np
 from datetime import datetime
@@ -168,3 +169,55 @@ class TestImplementationFunctions(unittest.TestCase):
             print("Cat B catches the mouse")
         else:
             print("Mouse C escapes, since both the cat are busy in fighting")
+
+    def test_pickingNumbers(self):
+        a=[1, 1, 2,3, 2, 4, 4, 5, 5,2, 5,6,7,6,6,8,9,8,9,0]
+        a.sort()
+        temparr = []
+        maxArrr=0
+        min=a[0]
+        for i in a:
+            if (i-min) <=1:
+                temparr.append(i)
+            else:
+                if len(temparr)>= maxArrr:
+                    maxArrr = len(temparr)
+                min=i
+                temparr.clear()
+                temparr.append(i)
+        if len(temparr) >= maxArrr:
+            maxArrr = len(temparr)
+
+        print(f"The length of maximum sub list is {maxArrr}")
+
+    def test_hurdleRace(self):
+        height = [1,2,3,3,2]
+        k=1
+        maxHeight = max(height)
+        if maxHeight>k:
+            print(f"Dose required: {maxHeight-k}")
+        else:
+            print(f"Dose required: 0")
+
+    def test_designer_pdf_viewer(self):
+        h=[1, 3, 1, 3, 1, 4, 1, 3, 2, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 7]
+        word = 'zaba'
+        size=len(word)
+        tallestLetter = 1
+        for i in word:
+            charIndex=string.ascii_lowercase.index(i)
+            if(h[charIndex]>tallestLetter):
+                tallestLetter=h[charIndex]
+        print(f'Size of the highlighted area is {size*tallestLetter}')
+
+    def test_utopianTree(self):
+        n=5
+        val=1
+        for i in range(0,n+1):
+            if i==0:
+                val = val+i
+            elif i%2==0:
+                val = val+1
+            else:
+                val = val+val
+        print(f"The height of the tree after the given number of cycles {n} is {val}")

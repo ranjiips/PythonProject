@@ -5,13 +5,9 @@ File I/O
 'r+' - Read and Write mode
 'a' - Append mode
 """
-import json
 import os.path
-from logging import exception
-from robot.libraries.BuiltIn import BuiltIn
 
 import requests
-import pandas as pd
 import _10genericmethods
 base_url="https://rahulshettyacademy.com"
 get_book_id="/Library/GetBook.php"

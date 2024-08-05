@@ -5,16 +5,13 @@ File I/O
 'r+' - Read and Write mode
 'a' - Append mode
 """
-import json
-from logging import exception
 
 import requests
 
 listValue = [1, 2, 3]
-filepath = './../files/sample.txt'
+filepath = '../../files/sample.txt'
 listOfThingsDo = ["You need at least to: \n", "Eat fried Ice Cream\n", "Go to Disney\n", "Travel to the moon\n", "Cook Pineapple Pizza\n", "Dance Salsa\n"]
 import pandas as pd
-import string
 import _10genericmethods
 class FileHandling(object):
 

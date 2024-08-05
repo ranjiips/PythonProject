@@ -1,22 +1,22 @@
-class arithmetic_operation():
-    def add(self,num1,num2):
-        print("===================Addition======================")
-        print(num1,'+',num2,'=',num1 + num2)
+def pickingNumbers():
+    a = [1, 1, 2, 3, 2, 4, 4, 5, 5, 2, 5, 6, 7, 6, 6, 8, 9, 8, 9, 0]
+    a.sort()
+    temparr = []
+    maxArrr = 0
+    min = a[0]
+    for i in a:
+        print(i, i - min)
+        if (i - min) <= 1:
+            temparr.append(i)
+        else:
+            if len(temparr) >= maxArrr:
+                maxArrr = len(temparr)
+            min = i
+            temparr.clear()
+            temparr.append(i)
+    if len(temparr) >= maxArrr:
+        maxArrr = len(temparr)
 
-    def sub(self,num1,num2):
-        print("===================Subration======================")
-        print(num1-num1,'-',num2,'=',num1-num2)
+    print(f"The length of maximum sub list is {maxArrr}")
 
-    def mul(self,num1,num2):
-        print("===================Multipilicatio======================")
-        print(num1,'*',num2,'=',num1*num2)
-
-    def div(self,num1,num2):
-        print("===================Division================")
-        print("Division:",num1,'/',num2,'=',num1/num2)
-
-obj=arithmetic_operation()
-obj.add(10,20)
-obj.sub(40,30)
-obj.mul(2,4)
-obj.div(45,10)
+pickingNumbers()
