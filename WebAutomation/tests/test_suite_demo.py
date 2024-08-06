@@ -11,4 +11,4 @@ smokeTest = unittest.TestSuite([tc1, tc2])
 
 unittest.TextTestRunner(verbosity=2).run(smokeTest)
 
-#py.test tests/test_suite_demo.py  --browser chrome
+#python -m pytest tests/test_suite_demo.py  --browser chrome

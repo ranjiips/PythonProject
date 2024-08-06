@@ -28,7 +28,7 @@ class LoginPage(BasePage):
         self.elementClick(self._loginLink, locatorType="link")
 
     def enterEmail(self, email):
-        self.sendKeys(email, self._emailLocator)
+        self.sendKeys(email, self._usernameLocator)
 
     def enterPassword(self, password):
         self.sendKeys(password, self._passwordLocator)
@@ -38,7 +38,7 @@ class LoginPage(BasePage):
 
     def login(self, email="", password=""):
         self.clickLoginLink()
-        self.clearFields()
+        #self.clearFields()
         self.enterEmail(email)
         self.enterPassword(password)
         self.clickLoginButton()
@@ -67,7 +67,7 @@ class LoginPage(BasePage):
                           locatorType="xpath")
 
     def clearFields(self):
-        emailField = self.getElement(locator=self._emailLocator)
+        emailField = self.getElement(locator=self._usernameLocator)
         emailField.clear()
         passwordField = self.getElement(locator=self._passwordLocator)
         passwordField.clear()

@@ -89,3 +89,34 @@
 07/21/2024 10:26:17 PM - LoginPage - INFO: Cannot click on the element with locator: //a[text()='Log in'] locatorType: link
 07/21/2024 10:26:26 PM - LoginPage - INFO: Element not found with locator: //a[text()='Log in'] and  locatorType: link
 07/21/2024 10:26:26 PM - LoginPage - INFO: Cannot click on the element with locator: //a[text()='Log in'] locatorType: link
+07/31/2024 01:59:23 PM - LoginTests - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+07/31/2024 01:59:23 PM - LoginTests - INFO: test_t1invalidLogin started
+07/31/2024 01:59:23 PM - LoginTests - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+07/31/2024 01:59:23 PM - LoginTests - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+07/31/2024 01:59:23 PM - LoginTests - INFO: test_t1validLogin started
+07/31/2024 01:59:23 PM - LoginTests - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+07/31/2024 01:59:36 PM - LoginPage - INFO: Element not found with locator: //a[text()='Log in'] and  locatorType: link
+07/31/2024 01:59:36 PM - LoginPage - INFO: Cannot click on the element with locator: //a[text()='Log in'] locatorType: link
+07/31/2024 02:02:00 PM - LoginTests - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+07/31/2024 02:02:00 PM - LoginTests - INFO: test_t1invalidLogin started
+07/31/2024 02:02:00 PM - LoginTests - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+07/31/2024 02:02:00 PM - LoginTests - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+07/31/2024 02:02:00 PM - LoginTests - INFO: test_t1validLogin started
+07/31/2024 02:02:00 PM - LoginTests - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+07/31/2024 02:02:12 PM - LoginPage - INFO: Element not found with locator: //a[text()='Log in'] and  locatorType: link
+07/31/2024 02:02:12 PM - LoginPage - INFO: Cannot click on the element with locator: //a[text()='Log in'] locatorType: link
+07/31/2024 02:05:42 PM - LoginTests - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+07/31/2024 02:05:43 PM - LoginTests - INFO: test_t1invalidLogin started
+07/31/2024 02:05:43 PM - LoginTests - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+07/31/2024 02:05:43 PM - LoginTests - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+07/31/2024 02:05:43 PM - LoginTests - INFO: test_t1validLogin started
+07/31/2024 02:05:43 PM - LoginTests - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+07/31/2024 02:05:52 PM - LoginPage - INFO: Element not found with locator: //a[text()='Log in'] and  locatorType: link
+07/31/2024 02:05:52 PM - LoginPage - INFO: Cannot click on the element with locator: //a[text()='Log in'] locatorType: link
+07/31/2024 02:05:55 PM - LoginPage - INFO: Element not found with locator: //input[@id='loginusername'] and  locatorType: id
+07/31/2024 02:06:20 PM - LoginTests - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+07/31/2024 02:06:20 PM - LoginTests - INFO: test_t1invalidLogin started
+07/31/2024 02:06:20 PM - LoginTests - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+07/31/2024 02:06:20 PM - LoginTests - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+07/31/2024 02:06:20 PM - LoginTests - INFO: test_t1validLogin started
+07/31/2024 02:06:20 PM - LoginTests - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
