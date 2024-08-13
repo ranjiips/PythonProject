@@ -221,3 +221,12 @@ class TestImplementationFunctions(unittest.TestCase):
             else:
                 val = val+val
         print(f"The height of the tree after the given number of cycles {n} is {val}")
+
+    def test_angryProfessor(self):
+        a=[26, 94, -95, 34, 67, -97, 17, 52, 1, 86]
+        k=7
+        count = len([x for x in a if x<=0])
+        if count>=k:
+            print(f"Number of student present are {count}, expectd is {k}, Class will continue - NO")
+        else:
+            print(f"Number of student present are {count}, expectd is {k}, Class will not continue - YES")
