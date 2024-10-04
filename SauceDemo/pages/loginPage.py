@@ -1,0 +1,5 @@
+swaglabTitleLocator="//div[@class='login_logo']"
+usernameLocator="//input[@id='user-name']"
+passwordLocator="//input[@id='password']"
+submitbuttonLocator="//input[@id='login-button']"
+loginErrorLocator="//div[@class='error-message-container error']/h3"

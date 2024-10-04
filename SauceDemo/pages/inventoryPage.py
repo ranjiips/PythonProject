@@ -1,0 +1,6 @@
+inventoryMenuLocator="//button[@id='react-burger-menu-btn']"
+logoutLocator="//a[@id='logout_sidebar_link']"
+productLocator="//span[@class='title']"
+cartLocator="//div[@id='shopping_cart_container']"
+productListLocator="//div[@data-test='inventory-item-name']"
+cartCountLocator="//span[@class='shopping_cart_badge']"
