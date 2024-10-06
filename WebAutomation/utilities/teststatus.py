@@ -7,9 +7,9 @@ It provides functionality to assert the result
 Example:
     self.check_point.markFinal("Test Name", result, "Message")
 """
-import PythonProject.WebAutomation.utilities.custom_logger as cl
+import GitRepo.PythonProject.WebAutomation.utilities.custom_logger as cl
 import logging
-from PythonProject.WebAutomation.base.seleniumDriver import SeleniumDriver
+from GitRepo.PythonProject.WebAutomation.base.seleniumDriver import SeleniumDriver
 from traceback import print_stack
 
 class TestStatus(SeleniumDriver):

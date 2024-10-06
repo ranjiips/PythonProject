@@ -1,0 +1,9 @@
+07/10/2024 12:18:15 PM - LoginTests - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+07/10/2024 12:18:15 PM - LoginTests - INFO: test_t1invalidLogin started
+07/10/2024 12:18:15 PM - LoginTests - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+07/10/2024 12:18:15 PM - LoginTests - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+07/10/2024 12:18:15 PM - LoginTests - INFO: test_t1invalidLogin started
+07/10/2024 12:18:15 PM - LoginTests - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+07/10/2024 12:18:40 PM - LoginPage - INFO: Element not found with locator: //div/a[contains(@href,'login')] and  locatorType: link
+07/10/2024 12:18:40 PM - LoginPage - INFO: Cannot click on the element with locator: //div/a[contains(@href,'login')] locatorType: link
+07/10/2024 12:18:43 PM - LoginPage - INFO: Element not found with locator: email and  locatorType: id
