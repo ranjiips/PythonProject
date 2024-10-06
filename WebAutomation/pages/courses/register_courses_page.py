@@ -1,6 +1,6 @@
-import PythonProject.WebAutomation.utilities.custom_logger as cl
+import GitRepo.PythonProject.WebAutomation.utilities.custom_logger as cl
 import logging
-from PythonProject.WebAutomation.base.basepage import BasePage
+from GitRepo.PythonProject.WebAutomation.base.basepage import BasePage
 
 class RegisterCoursesPage(BasePage):
 

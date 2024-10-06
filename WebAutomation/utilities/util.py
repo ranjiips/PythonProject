@@ -10,7 +10,7 @@ Example:
 import time
 import traceback
 import random, string
-import PythonProject.WebAutomation.utilities.custom_logger as cl
+import GitRepo.PythonProject.WebAutomation.utilities.custom_logger as cl
 import logging
 
 class Util(object):

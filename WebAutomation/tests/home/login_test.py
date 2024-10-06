@@ -1,19 +1,27 @@
+import sys
 import logging
-
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import pytest
 import unittest
-from PythonProject.WebAutomation.pages.home.loginPage import LoginPage
-from PythonProject.WebAutomation.utilities.teststatus import TestStatus
-import PythonProject.WebAutomation.utilities.custom_logger as cl
+
+from GitRepo.PythonProject.WebAutomation.pages.home.loginPage import LoginPage
+from GitRepo.PythonProject.WebAutomation.utilities.teststatus import TestStatus
+import GitRepo.PythonProject.WebAutomation.utilities.custom_logger as cl
+
+# Add the project directory to the system path
+# sys.path.append('E:/Projects/GitRepo/PythonProject')
 
 @pytest.mark.usefixtures("oneTimeSetUp", "setUp")
 class LoginTests(unittest.TestCase):
     log = cl.customLogger(logging.DEBUG)
 
+    def __init__(self, driver):
+        super().__init__(driver)
+        self.driver = driver
+
     @pytest.fixture(autouse=True)
-    def objectSetup(self, oneTimeSetUp):
+    def objectSetup(self):
         self.lp = LoginPage(self.driver)
         self.ts = TestStatus(self.driver)
 
@@ -39,8 +47,3 @@ class LoginTests(unittest.TestCase):
         print("Result1: " + str(result1))
         print("Result2: " + str(result2))
         self.ts.markFinal("test_t2validLogin", result2, "Login Verification")
-
-
-# loginobj = LoginTests()
-# loginobj.test_validLogin()
-# loginobj.test_inValidLogin()

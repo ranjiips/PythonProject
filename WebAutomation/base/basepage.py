@@ -10,9 +10,9 @@ This should not be used by creating object instances
 Example:
     Class LoginPage(BasePage)
 """
-from PythonProject.WebAutomation.base.seleniumDriver import SeleniumDriver
+from GitRepo.PythonProject.WebAutomation.base.seleniumDriver import SeleniumDriver
 from traceback import print_stack
-from PythonProject.WebAutomation.utilities.util import Util
+from GitRepo.PythonProject.WebAutomation.utilities.util import Util
 
 class BasePage(SeleniumDriver):
 

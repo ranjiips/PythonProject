@@ -1,5 +1,0 @@
-cartTitleLocator = "//span[@class='title']"
-cartQuantityLocator = "//div[@class='cart_quantity']"
-cartItemsLocator = "//div[@class='inventory_item_name']"
-cartContinueShoppingButtonLocator = "//button[@id='continue-shopping']"
-cartCheckoutButtonLocator = "//button[@id='checkout']"

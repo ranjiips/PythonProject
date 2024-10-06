@@ -2,10 +2,10 @@ import time
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from PythonProject.WebAutomation.base.basepage import BasePage
-import PythonProject.WebAutomation.utilities.custom_logger as cl
+from GitRepo.PythonProject.WebAutomation.base.basepage import BasePage
+import GitRepo.PythonProject.WebAutomation.utilities.custom_logger as cl
 import logging
-from PythonProject.WebAutomation.pages.home.navigation_page import NavigationPage
+from GitRepo.PythonProject.WebAutomation.pages.home.navigation_page import NavigationPage
 
 class LoginPage(BasePage):
 
