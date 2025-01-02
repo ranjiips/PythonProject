@@ -47,33 +47,46 @@ def step_impl(context):
     time.sleep(3)
 
 
-
-
-@then(u'I can see the "Products" page loaded successfully')
-def step_impl(context):
-    raise NotImplementedError(u'STEP: Then I can see the "Products" page loaded successfully')
+@then(u'I can see the "{products}" page loaded successfully')
+def step_impl(context, products):
+    element = context.driver.find_element(By.XPATH,"//span[@class='title']")
+    productHeader = element.text
+    assert products == productHeader, "Products page not loaded"
+    print(f"{productHeader} page loaded successfully")
 
 
 @when(u'I add the product "Sauce Labs Fleece Jacket" into the cart')
 def step_impl(context):
-    raise NotImplementedError(u'STEP: When I add the product "Sauce Labs Fleece Jacket" into the cart')
+    element = context.driver.find_element(By.ID,"add-to-cart-sauce-labs-fleece-jacket")
+    element.click()
+    # time.sleep(2)
 
 
 @when(u'I Click the cart icon')
 def step_impl(context):
-    raise NotImplementedError(u'STEP: When I Click the cart icon')
+    element = context.driver.find_element(By.XPATH,"//span[@class='shopping_cart_badge']")
+    element.click()
+    # time.sleep(3)
 
-
-@then(u'I can see the product "Sauce Labs Fleece Jacket" in the cart screen')
-def step_impl(context):
-    raise NotImplementedError(u'STEP: Then I can see the product "Sauce Labs Fleece Jacket" in the cart screen')
+@then(u'I can see the product "{productname}" in the cart screen')
+def step_impl(context,productname):
+    element = context.driver.find_element(By.ID,"item_5_title_link")
+    pageTitle = element.text
+    assert productname == pageTitle, "product title is not populated"
+    print(f"{pageTitle} is populated successfully in the cart")
 
 
 @when(u'I Click the continue to Shopping button')
 def step_impl(context):
-    raise NotImplementedError(u'STEP: When I Click the continue to Shopping button')
+    element = context.driver.find_element(By.ID,"continue-shopping")
+    element.click()
 
 
 @when(u'I Logout from the application')
 def step_impl(context):
-    raise NotImplementedError(u'STEP: When I Logout from the application')
+    element=context.driver.find_element(By.ID,"react-burger-menu-btn")
+    element.click()
+    time.sleep(2)
+    logoutButton=context.driver.find_element(By.ID,"logout_sidebar_link")
+    logoutButton.click()
+    time.sleep(2)
