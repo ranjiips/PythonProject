@@ -35,7 +35,7 @@ def arthimetic_operations():
     print("===================== Exponents =====================")
     exponents = 2**3
     print(f"{2} ** {3} = {exponents}")
-    print("===================== Order_of_precedence =====================")
+    print("===================== Order of precedence =====================")
     order_of_precedence = (2+6)*(6*4)/4
     print(f"order_of_precedence for (2+6)*(6*4)/4 is {order_of_precedence}")
 
