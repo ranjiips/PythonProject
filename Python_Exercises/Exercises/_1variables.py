@@ -54,11 +54,22 @@ def using_format():
     print('a={} b={} c={}'.format(a,b,c))
     print('d={} e={} f={}'.format(d,e,f))
 
-print_values()
+def get_index_of_sum():
+    numbers=[6, 8, 11, 6, 7, 18]
+    value=17
+    print(f"Number list: {numbers}")
+    for i in range(0, len(numbers)-1):
+            if(numbers[i]+numbers[i+1]==value):
+                print(f"Index1 = {i}, Index2 = {i+1}")
 
+
+print_values()
 a=True
 a=(5)
 print(f"Type of variable a-{a} is {type(a)}")
 arthimetic_operations()
 boolean_operations()
 using_format()
+
+# num = [6,8,11,6,7,18]
+get_index_of_sum()
