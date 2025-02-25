@@ -16,6 +16,8 @@ def list_actions():
     print(list)
     list.insert(1,"venkat")
     print(list)
+    list.remove("text")
+    print(list)
 
 def number_lists():
     print_headers("Number list operations")

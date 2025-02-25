@@ -58,8 +58,8 @@ def slicing_and_Indexing():
     print(name[::])     #Ranjith
     print(name[::2])    #Rnih
 
-def reverse_the_string():
-    name="Ranjith"
+def reverse_the_string(name):
+    # name="Ranjith"
     print(f"Reverse the string '{name}'")
     print(name[::-1])   #htijnaR
     print(name[::-2])   #hinR
@@ -79,9 +79,41 @@ def string_formatting():
     print("I am from %s"%country)
     print(bool(a))
 
+def fetch_given_type(name):
+    print(f"Actual string: {name}")
+    uppercase_char = [char for char in name if char.isupper()]
+    print(f"Upper case: {str(uppercase_char)}")
+    lowercase_char = [char for char in name if char.islower()]
+    print(f"Lower case: {str(lowercase_char)}")
+    digits_char = [char for char in name if char.isdigit()]
+    print(f"Numbers: {str(digits_char)}")
+    alphaNumberic_char = [char for char in name if char.isalnum()]
+    print(f"AlphaNumeric: {str(alphaNumberic_char)}")
+    special_char = [char for char in name if char.isalnum()!=True]
+    print(f"Special Character: {str(special_char)}")
+
+def remove_givn_char(name):
+    print(name.replace("a",""))
+
+def get_strings(name):
+    print(name[0])
+    string = name.split(" ")
+    print(string, type(string))
+    string.insert(1, "Kumar")
+    string.append("Subramaniam")
+    print(string)
+    fname = string[0]+" "+string[1]
+    lname = string[2]
+    print(f"First name: {fname}")
+    print(f"Last name: {lname}")
+
+
 string_concepts()
 replace_string()
 substring_slicing()
 slicing_and_Indexing()
-reverse_the_string()
+reverse_the_string("Ranjith")
 string_formatting()
+fetch_given_type("axd3%&4KKSD_&wd12FV")
+remove_givn_char("Ranjith Kumar")
+get_strings("Ranjith")
