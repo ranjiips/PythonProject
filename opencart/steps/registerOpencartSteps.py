@@ -30,7 +30,8 @@ def step_impl(context):
 
 @when(u'User enters the personal details')
 def step_impl(context):
-    context.registerObj.enterPersonalDetails()
+    # context.registerObj.enterPersonalDetails()
+    context.registerObj.registerUserDetails()
 
 @when(u'User click the "Continue" button')
 def step_impl(context):
@@ -43,4 +44,4 @@ def step_impl(context):
 
 @then(u'User successfully logged out from the application')
 def step_impl(context):
-    context.homeObj.accountLogout()
+    context.homeObj
