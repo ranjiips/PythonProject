@@ -23,18 +23,12 @@ class HomePage(BaseMethod):
     def selectOption(self, option):
         if option.lower()=="register":
             self.clickElement("xpath", self._myAccountLocator)
-            # self.hard_wait()
             self.clickElement("xpath", self._registerLocator)
         elif option.lower()=="login":
             self.clickElement("xpath", self._myAccountLocator)
-            # self.hard_wait()
             self.clickElement("xpath", self._loginLocator)
-        # elif option.lower() == "logout":
-
-    def accountLogout(self):
+        elif option.lower() == "logout":
             self.clickElement("xpath", self._myAccountLocator)
-            # self.hard_wait()
             self.clickElement("xpath",self._logoutLocator)
-            # self.hard_wait()
 
 
